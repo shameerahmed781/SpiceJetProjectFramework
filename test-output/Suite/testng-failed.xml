@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.spicejet.project.testcases.LoginTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="LoginwithInValidCredentials"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.spicejet.project.testcases.LoginTest -->
+      <class name="com.spicejet.project.testcases.SearchforflightsRoundTripTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifySearchforflightsRoundTrip"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.spicejet.project.testcases.SearchforflightsRoundTripTest -->
+      <class name="com.spicejet.project.testcases.SignUpTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifySignup"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.spicejet.project.testcases.SignUpTest -->
+      <class name="com.spicejet.project.testcases.SelectFlightBookingPaymentTest">
+        <methods>
+          <include name="verifySelectFlightBookingPayment"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.spicejet.project.testcases.SelectFlightBookingPaymentTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
